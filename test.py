@@ -5,6 +5,8 @@ print("1.1 Список A:", A)
 
 print("1.2) 5-ий елемент: ", A[4])
 print("1.2) 7-ий елемент: ", A[6])
+
+
 print("1.2) 2-ий - 6-ий елементи: ", A[1:6])
 
 
@@ -22,10 +24,10 @@ A.extend([random.randint(-10, 10), random.randint(-10, 10)])
 print("1.5: ) Додати два довільних елементи у список А. Новий список: ", A)
 
 
-
+A.extend([random.randint(-10, 10)])
 
 B = [random.randint(-10, 10) for i in range(3)]
-A.extend(B)
+B.extend(A)
 print("1.6: ) Створити новий список В і об’єднати його з А. Новий список : ", A)
 
 
