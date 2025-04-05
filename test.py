@@ -1,5 +1,6 @@
 import random
 A = [random.randint(-10, 10) for i in range(8)]
+print("#1")
 print("1.1 Список A:", A)
 
 
